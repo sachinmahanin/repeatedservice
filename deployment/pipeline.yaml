@@ -1,0 +1,23 @@
+--- 
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  labels: 
+    app: repeatedservice
+  name: repeatedservice-deployment
+spec: 
+  replicas: 1
+  selector: 
+    matchLabels: 
+      app: repeatedservice
+  template: 
+    metadata: 
+      labels: 
+        app: repeatedservice
+    spec: 
+      containers: 
+          - image: sachinmahanin/passwordrepeated:latest
+            name: repeatedservice
+            ports: 
+              - containerPort: 18606
+                protocol: TCP
