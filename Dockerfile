@@ -14,11 +14,11 @@ ENV APP_VERSION=1
 ENV HOSTNAME=localhost
 ENV APP_PORT=18606
 
-COPY . /go/src/github.com/sachinmahanin/passwordStrength
-WORKDIR /go/src/github.com/sachinmahanin/passwordStrength
+COPY . /go/src/github.com/sachinmahanin/passwordrepeated
+WORKDIR /go/src/github.com/sachinmahanin/passwordrepeated
 
-RUN go build -mod=vendor -o bin/passwordStrength
-RUN ls /go/src/github.com/sachinmahanin/passwordStrength
-RUN chmod +x /go/src/github.com/sachinmahanin/passwordStrength
+RUN go build -mod=vendor -o bin/passwordrepeated
+RUN ls /go/src/github.com/sachinmahanin/passwordrepeated
+RUN chmod +x /go/src/github.com/sachinmahanin/passwordrepeated
 EXPOSE 18605/tcp
-CMD ./bin/passwordStrength
+CMD ./bin/passwordrepeated

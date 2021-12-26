@@ -16,7 +16,7 @@ spec:
         app: repeatedservice
     spec: 
       containers: 
-          - image: sachinmahanin/passwordrepeated:latest
+          - image: sachinmahanin/repeatedservice:latest
             name: repeatedservice
             ports: 
               - containerPort: 18606
