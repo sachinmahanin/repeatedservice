@@ -3,9 +3,9 @@ package cusomization
 import (
 	"time"
 
-	logger "github.com/sachinmahanin/passwordRepeated/middleware/logger"
-	"github.com/sachinmahanin/passwordRepeated/sessionutil"
-	web "github.com/sachinmahanin/passwordRepeated/web"
+	logger "github.com/sachinmahanin/passwordrepeated/middleware/logger"
+	"github.com/sachinmahanin/passwordrepeated/sessionutil"
+	web "github.com/sachinmahanin/passwordrepeated/web"
 	webserver "github.com/zhongjie-cai/web-server"
 )
 

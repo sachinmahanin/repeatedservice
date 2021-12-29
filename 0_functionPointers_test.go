@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/sachinmahanin/passwordRepeated/config"
+	"github.com/sachinmahanin/passwordrepeated/config"
 	"github.com/stretchr/testify/assert"
 	webserver "github.com/zhongjie-cai/web-server"
 )

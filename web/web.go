@@ -3,8 +3,8 @@ package web
 import (
 	"net/http"
 
-	"github.com/sachinmahanin/passwordRepeated/handler/business"
-	"github.com/sachinmahanin/passwordRepeated/handler/utility"
+	"github.com/sachinmahanin/passwordrepeated/handler/business"
+	"github.com/sachinmahanin/passwordrepeated/handler/utility"
 	webserver "github.com/zhongjie-cai/web-server"
 )
 
@@ -18,7 +18,7 @@ func RegisteredStatics() []webserver.Static {
 func registeredBusinessRoutes() []webserver.Route {
 	return []webserver.Route{
 		webserver.Route{
-			Endpoint:   "business.passwordRepeated",
+			Endpoint:   "business.passwordrepeated",
 			Method:     http.MethodPost,
 			Path:       "/Lookup",
 			ActionFunc: business.Lookup,

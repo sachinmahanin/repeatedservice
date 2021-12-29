@@ -1,4 +1,4 @@
-module github.com/sachinmahanin/passwordRepeated
+module github.com/sachinmahanin/passwordrepeated
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect

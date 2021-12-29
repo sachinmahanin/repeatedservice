@@ -1,8 +1,8 @@
 package business
 
 import (
-	"github.com/sachinmahanin/passwordRepeated/config"
-	"github.com/sachinmahanin/passwordRepeated/handler/business/model"
+	"github.com/sachinmahanin/passwordrepeated/config"
+	"github.com/sachinmahanin/passwordrepeated/handler/business/model"
 
 	webserver "github.com/zhongjie-cai/web-server"
 )

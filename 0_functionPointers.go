@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/sachinmahanin/passwordRepeated/config"
+	"github.com/sachinmahanin/passwordrepeated/config"
 	webserver "github.com/zhongjie-cai/web-server"
 )
 

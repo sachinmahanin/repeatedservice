@@ -2,7 +2,7 @@ package logger
 
 import (
 	"github.com/google/uuid"
-	"github.com/sachinmahanin/passwordRepeated/config"
+	"github.com/sachinmahanin/passwordrepeated/config"
 	webserver "github.com/zhongjie-cai/web-server"
 )
 

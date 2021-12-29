@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/sachinmahanin/passwordRepeated/config"
-	customization "github.com/sachinmahanin/passwordRepeated/customization"
+	"github.com/sachinmahanin/passwordrepeated/config"
+	customization "github.com/sachinmahanin/passwordrepeated/customization"
 )
 
 // This is a sample of how to setup application for running the server

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/sachinmahanin/passwordRepeated/config"
-	customization "github.com/sachinmahanin/passwordRepeated/customization"
+	"github.com/sachinmahanin/passwordrepeated/config"
+	customization "github.com/sachinmahanin/passwordrepeated/customization"
 	"github.com/stretchr/testify/assert"
 	webserver "github.com/zhongjie-cai/web-server"
 )

@@ -1,7 +1,7 @@
 package utility
 
 import (
-	"github.com/sachinmahanin/passwordRepeated/config"
+	"github.com/sachinmahanin/passwordrepeated/config"
 	webserver "github.com/zhongjie-cai/web-server"
 )
 
