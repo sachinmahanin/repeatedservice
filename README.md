@@ -81,7 +81,7 @@ As soon as commit is pushed to the master branch, CI workflow is triggered. Whic
 
 ## Running the service in minikube
 1. Run the minikube service on your local box - minkube start
-2. Run following command from the root commonpassword will create deployment+service+configMap in the minikube
+2. Run following command from the root repeatedservice will create deployment+service in the minikube
 ```
 kubectl apply -f deployment
 ```
